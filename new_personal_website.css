@@ -119,7 +119,7 @@ body {
 }
 
 #intro img {
-  width: 400px;
+  width: 350px;
   border-radius: 40px;
   border: 6px solid black;
 }
@@ -131,6 +131,7 @@ body {
 
 .intro-text{
   vertical-align: middle;
+  padding-top:100px;
 }
 
 .uoft-img {
