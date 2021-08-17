@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="new_personal_website.css">
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6e3114b45b.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Personal Website</title>
+    </head>
+    <body data-spy="scroll" data-target="#navbar" data-offset="70px">
+        <!--Navbar-->
+        <nav id="navBar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#landing">GB</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#landing">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#intro">Introduction</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#current">Current</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a> <!-- might add two diff types of projects, one personal and one collaborative-->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#resume">Resume</a> <!-- might add two diff types of projects, one personal and one collaborative-->
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!--Landing-->
+          <div id="landing" class="mt-70 aos-init aos-animate">
+            <div class="row">
+              <div class="col text-center">
+                <div class="landing-text" data-aos="zoom-out" data-aos-duration="1500">
+                  <h1 class="display-4 mt-5"><strong>Hi, I'm Guneet!</strong></h1>
+                  <h4>Here's who I am!</h4>
+                </div>
+                <a data-scroll href="#intro">
+                  <div class="arrow my-5"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        <hr class="p-0 m-0">
+        <!--intro-->
+
+        <div id="intro" class="container-fluid my-5">
+            <div class="row row-cols-lg-2 justify-content-center aos-init aos-animate" >
+                <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1500">
+                    <img src="GuneetBolaProfile.jpeg" alt="image of Guneet Bola">
+                </div>
+                <div class="intro-text col-lg-5 vertical-center" data-aos="fade-left" data-aos-duration="1500">
+                    <h1>I'm Guneet Bola</h1>
+                    <h4>Nice to meet you!</h4>
+                    <p>Hi! I’m a second-year Computer Science student at the University of Waterloo. Recently, I have completed my first year with a 3.9 GPA! Other than software development, my interests include advocacy, travelling, and swimming. Feel free to reach out to chat or discuss any potential opportunities!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <!--current-->
+        <div id="current">
+            <div class="container justify-content-center">
+                <div class="row">
+                    <div class="text-center">
+                        <h2>What am I up to?</h2>
+                        <p>I like to learn through new experiences and surronding myself with passionate individuals!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+              <div class="row row-cols-1 row-cols-lg-2 justify-content-around my-5">
+                <div class="card col-md-7 mb-3" data-aos="flip-up" data-aos-duration="1000">
+                  <h5 class="card-header">Devloper (CO-OP)</h5>
+                  <div class="card-body">
+                    <h5 class="card-title">WIL-Programs: Univeristy of Waterloo</h5>
+                    <p class="card-text">My first co-op is as a Developer for WIL programs at the University of Waterloo. It has been one of the best learning experiences to further my technical and non-technical skills. My role included:
+                    <ul>
+                      <li>Working a curriculum team to understand material and design webpages using Figma.</li>
+                      <li>Understanding educational needs and wants to develop interactive webpages for 5000+ students using HTML,CSS, and JavaScript.</li>
+                      <li>Work in a team to assess current software development in Brightspace software to provide feedback to improve the quality of the programming and educational output.</li>
+                      <li>Spent time with Deloitte as user-testers for their Human-Centred Design course to offer feedback on possible improvements.</li>
+                    </ul>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="card" data-aos="flip-up" data-aos-duration="1000">
+                    <div class="card-body">
+                      <h5 class="card-title">Always Learning</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">How am I learning today?</h6>
+                      <p class="card-text">I consider myself as a life-long learner, whether it be through my Co-op experience or through online courses. What am I currently learning?
+                        <ul>
+                          <li>The Foundations and Importance of Agile Testing</li>
+                          <li>The basics of product and project management</li>
+                          <li>Deepening my knowledge of Python through online courses</li>
+                          <li>Starting to delve in the world of application development by learning Swift</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row row-cols-1 row-cols-lg-3 justify-content-around">
+                <div class="col-md-4 mb-3">
+                  <div class="card" data-aos="flip-up" data-aos-duration="1000">
+                    <div class="text-center">
+                      <img class="card-img-top council-img" src="council2.jpeg" alt="Card image cap">
+                    </div>
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">Brampton West Youth Council</h5>
+                      <h6 class="card-subtitle mb-2 text-muted"></h6>
+                      <p class="card-text">For the past 5 years, I have volunteered with my local Member of Parliament, Kamal Khera, and her team. In the youth council I have gotten the opportunity to:
+                        <ul>
+                          <li>Discuss issues that youth are facing within the community along with solutions.</li>
+                          <li>Create and organize events to reduce the stigma around mental health, raise awareness about Murdered and Missing Indigenous Women, and help local businesses.</li>
+                          <li>Recently, I have gotten a chance to meet Prime Minister, Justin Trudeau to ask questions and have open discussions on multiple topics.</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <div class="card" data-aos="flip-up" data-aos-duration="1000">
+                    <div class="text-center">
+                      <img class="card-img-top image-current" src="csc_logo.png" alt="Card image cap">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">First-Year Representative</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">Computer Science Club</h6>
+                      <p class="card-text">
+                        For the past two semesters, I have been a first-year representative for computer science students at the University of Waterloo. Next semester, I am joining as a second-year representative to continue to represent computer science students and create a welcoming community.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <div class="card" data-aos="flip-up" data-aos-duration="1000">
+                    <div class="text-center">
+                      <img class="card-img-top uoft-img" src="uoft_logo.jpeg" alt="Card image cap">
+                    </div>
+                      <div class="card-body">
+                        <h5 class="card-title">Logistics Executive</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">University of Toronto Hackathon</h6>
+                        <p class="card-text">My current role in the team of UofT Hacks is to:
+                          <ul>
+                            <li>Creatively devise plans to create a great educational experience for students of all educational backgrounds.</li>
+                            <li>Organize a hackathon for 100+ participants along with 5 year-long events.</li>
+                          </ul>
+                        </p>
+                      </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+          <br>
+          <hr>
+          <br>
+      
+          <!--projects-->
+          <div id="projects">
+            <div class="container justify-content-center">
+                <div class="row">
+                    <div class="text-center mb-2">
+                        <h2>Technical Projects</h2>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="container">
+
+                <div class="card aslearn col-lg-10 mx-auto mb-3" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="row">
+                    <div class="col col-5">
+                      <img class="card-img-top my-3" src="aslearn.png" alt="Card image cap">
+                    </div>
+                    <div class="col col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">ASLearn</h5>
+                        <p class="card-text">A web application created to educate on the importance of learning sign language. ASLearn is able to recognize letters of the American Sign Language and displays the corresponding English letter on the screen.</p>
+                        <p class="text-muted">Python, Keras, OpenCV, Tensorflow, and NumPy</p>
+                        <hr>
+                        <a href="https://github.com/GuneetBola/ASLearn" target="_blank"><i class="fab fa-github fs-1"></i></a>
+                      </div>
+    
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="card unibot col-lg-10 mx-auto mb-3" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="row">
+                    <div class="col col-5">
+                      <img class="card-img-top my-3" src="unibot.png" alt="Card image cap">
+                    </div>
+                    <div class="col col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">UniBot</h5>
+                        <p class="card-text">An interactive website where prospective post-secondary students can interact with and be mentored by alumni and current post-secondary school students of particular academic institutions.</p>
+                        <p class="text-muted">HTML, CSS, SQLite, Python, Socket.io, and JavaScript</p>
+                        <hr>
+                        <div class="row">
+                          <div class="col-3">
+                            <a href="https://github.com/GuneetBola/UniBots" target="_blank"><i class="fab fa-github fs-1"></i></a>
+                          </div>
+                          <div class="col-3">
+                            <a href="https://devpost.com/software/unibots" target="_blank"><i class="fas fa-globe fs-1"></i></a>
+                          </div>
+                        </div>
+                      </div>
+    
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="card artist-search col-lg-10 mx-auto mb-3" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="row">
+                    <div class="col col-5">
+                      <img class="card-img-top my-3" src="artist-search.png" alt="Card image cap">
+                    </div>
+                    <div class="col col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">Artist Search</h5>
+                        <p class="card-text">An online search engine that allows users to search 100,000+ musicians and learn about their genres along with listening to thier top tracks.</p>
+                        <p class="text-muted">HTML, CSS, Bootstrap, React.Js, and REST API</p>
+                        <hr>
+                        <div class="row">
+                          <div class="col-3">
+                            <a href="https://github.com/GuneetBola/Artist-Search" target="_blank"><i class="fab fa-github fs-1"></i></a>
+                          </div>
+                          <div class="col-3">
+                            <a href="https://artistsearch.netlify.app/" target="_blank"><i class="fas fa-globe fs-1"></i></a>
+                          </div>
+                        </div>
+                      </div>
+    
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="card stock col-lg-10 mx-auto mb-3" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="row">
+                    <div class="col col-5">
+                      <img class="card-img-top my-3" src="portfolio.png" alt="Card image cap">
+                    </div>
+                    <div class="col col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">Stock Trader</h5>
+                        <p class="card-text">A mock-stock trading site where users are able to login, register, and trade all stocks on the stock market in real-time.</p>
+                        <p class="text-muted">HTML, CSS, SQLite, Flask, and Python</p>
+                        <hr>
+                        <div class="row">
+                          <div class="col-3">
+                            <a href="https://github.com/GuneetBola/Stock-Trader-CS50" target="_blank"><i class="fab fa-github fs-1"></i></a>
+                          </div>
+                          <div class="col-3">
+                            <a href="https://www.youtube.com/watch?v=rnLiO9T7Z8g" target="_blank"><i class="fas fa-video fs-1"></i></a>
+                          </div>
+                        </div>
+                      </div>
+    
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="card climate col-lg-10 mx-auto mb-3" data-aos="zoom-in" data-aos-duration="1000">
+                  <div class="row">
+                    <div class="col col-5">
+                      <img class="justify-content-centre my-3" src="loginClimate.png" alt="Card image cap">
+                    </div>
+                    <div class="col col-7">
+                      <div class="card-body">
+                        <h5 class="card-title">Climate Bots (Set Hacks)</h5>
+                        <p class="card-text">An educational site where users are able to learn more and post about sustainable practices.</p>
+                        <p class="text-muted">HTML, CSS, SQL, JavaScript, and Python</p>
+                        <hr>
+                        <div class="row">
+                          <div class="col-3">
+                            <a href="https://github.com/GuneetBola/Climate-Bots" target="_blank"><i class="fab fa-github fs-1"></i></a>
+                          </div>
+                          <div class="col-3">
+                            <a href="https://www.youtube.com/watch?v=foM7h-vBahU" target="_blank"><i class="fas fa-video fs-1"></i></a>
+                          </div>
+                        </div>
+                      </div>
+    
+                    </div>
+                  </div>
+                  
+                </div>
+
+
+            </div>
+
+          </div>
+
+        <!--Resume-->
+        <hr>
+        <div class="container" id="resume">
+          <div class="container justify-content-center">
+            <div class="row">
+                <div class="text-center">
+                    <h2>Resume and Contact Information</h2>
+                </div>
+                <br>
+            </div>
+          </div>
+          <div class="row mb-5 mt-4 justify-content-center">
+            <div class="col-xl-6 text-center">
+              <div class="row">
+                <div class="col-12">
+                  <object data="Guneet_Bola_Resume.pdf" type="application/pdf" width="500" height="500">
+                    <a href="Guneet_Bola_Resume.pdf">
+                      <iframe src="Guneet_Bola_Resume.pdf"></iframe>
+                    </a>
+                  </object>
+                </div>
+              </div>
+              
+              <a class="btn btn-light mt-2 fs-5" href="Guneet_Bola_Resume.pdf" target="_blank">Resume</a>
+            </div>
+              <div class="col-xl-6 mt-5 justify-content-center text-center vertical-center">
+                <h3>Looking for Summer 2022 Opportunities!</h3>
+                <p>Feel free to reach out for the following roles or any others related to technology or business!</p>
+                <div class="row justify-content-center">
+                  <p class="roles col-sm-12">Software Developer</p>
+                  <p class="roles col-sm-12">Project Management</p>
+                </div>
+                <div class="row justify-content-center">
+                  <p class="roles col-sm-12">Product Management</p>
+                  <p class="roles col-sm-12">Web Developer</p>
+                </div>
+                <div class="contact1 mt-5">
+                  <hr>
+                  <p>Contact Information can be found below:</p>
+                  <div class="row justify-content-around">
+                    <div class="col-3 email">
+                      <a href="mailto:gbola@uwaterloo.ca" target="_blank"><i class="fas fa-envelope fs-1"></i></a>
+                    </div>
+                    <div class="col-3 linkedin">
+                      <a href="https://www.linkedin.com/in/guneet-bola-77ab821a7/" target="_blank"><i class="fab fa-linkedin fs-1"></i></a>
+                    </div>
+                    <div class="col-3 github">
+                      <a href="https://github.com/GuneetBola" target="_blank"><i class="fab fa-github fs-1"></i></a>
+                    </div>
+
+                  </div>
+                </div>
+                </div>
+            </div>
+          </div>
+      
+
+
+    </body>
+    <footer role="banner" class="my-0 text-center">
+      <p class="fs-5">Made with <span style="color: #e25555;">&#9829;</span> by Guneet</p> <!--need to add rights reserved-->
+      <div class="row contact2 justify-content-center">
+        <div class="col-4 email">
+          <a href="mailto:gbola@uwaterloo.ca" target="_blank"><i class="fas fa-envelope fs-1"></i></a>
+        </div>
+        <div class="col-4 linkedin">
+          <a href="https://www.linkedin.com/in/guneet-bola-77ab821a7/" target="_blank"><i class="fab fa-linkedin fs-1"></i></a>
+        </div>
+        <div class="col-4 github">
+          <a href="https://github.com/GuneetBola" target="_blank"><i class="fab fa-github fs-1"></i></a>
+        </div>
+
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script> $(function() { AOS.init(); }); </script>
+    <script>
+        $(function() {
+            var topoffset = 70; //variable for menu height
+
+            //Use smooth scrolling when clicking on navigation
+            $('.navbar-nav a').click(function() {
+                if (location.pathname.replace(/^\//,'') === 
+                this.pathname.replace(/^\//,'') && 
+                location.hostname === this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html,body').animate({
+                    scrollTop: target.offset().top-topoffset
+                    }, 500);
+                    return false;
+                } //target.length
+                } //click function
+            }); //smooth scrolling
+
+        });
+        document.addEventListener('DOMContentLoaded', function(event) {
+
+        document.getElementById('flip-card-btn-turn-to-back').style.visibility = 'visible';
+        document.getElementById('flip-card-btn-turn-to-front').style.visibility = 'visible';
+
+        document.getElementById('flip-card-btn-turn-to-back').onclick = function() {
+        document.getElementById('flip-card').classList.toggle('do-flip');
+        };
+
+        document.getElementById('flip-card-btn-turn-to-front').onclick = function() {
+        document.getElementById('flip-card').classList.toggle('do-flip');
+        };
+
+        });
+        
+      </script>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+      <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+</html>
