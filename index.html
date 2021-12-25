@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Personal Website</title>
+        <meta name="image" property="og:image" content="main">
     </head>
     <body data-spy="scroll" data-target="#navbar" data-offset="70px">
         <!--Navbar-->
@@ -43,22 +44,33 @@
         <!--Landing-->
           <div id="landing" class="mt-70 aos-init aos-animate">
             <div class="row">
+              <div class="bg"></div>
+              <div class="bg bg2"></div>
+              <div class="bg bg3"></div>  
+              <div class="top">
               <div class="col text-center">
                 <div class="landing-text" data-aos="zoom-out" data-aos-duration="1500">
-                  <h1 class="display-4 mt-5"><strong>Hi, I'm Guneet!</strong></h1>
-                  <h4>Here's who I am!</h4>
+                      <h2 class="main-title display-4 mt-5"><strong>Hi, I'm Guneet!</strong></h2>
+                      <h4>Here's who I am!</h4>
+                  </div>
+                  <!--
+                    <h1 class="display-4 mt-5"><strong>Hi, I'm Guneet!</strong></h1>
+                    <h4>Here's who I am!</h4> 
+                  -->
+                  
                 </div>
                 <a data-scroll href="#intro">
                   <div class="arrow my-5"></div>
                 </a>
               </div>
             </div>
+            <hr class="p-0 m-0">
           </div>
-        <hr class="p-0 m-0">
-        <!--intro-->
+        <div class="whole-page p-0 m-0">
+          <!--intro-->
 
-        <div id="intro" class="container-fluid my-5">
-            <div class="row row-cols-lg-2 justify-content-center aos-init aos-animate" >
+          <div id="intro" class="container-fluid mb-5">
+            <div class="row row-cols-lg-2 justify-content-center aos-init aos-animate pt-5" >
                 <div class="col-lg-5 justify-content-center" data-aos="fade-right" data-aos-duration="1500">
                     <img src="GuneetBolaProfile.jpeg" alt="image of Guneet Bola">
                 </div>
@@ -297,7 +309,7 @@
 
         <!--Resume-->
         <hr>
-        <div class="container" id="resume">
+        <div class="container pb-5" id="resume">
           <div class="container justify-content-center">
             <div class="row">
                 <div class="text-center">
@@ -306,7 +318,7 @@
                 <br>
             </div>
           </div>
-          <div class="row mb-5 mt-4 justify-content-center">
+          <div class="row mt-4 justify-content-center">
             <div class="col-xl-6 text-center">
               <div class="row">
                 <div class="col-12">
@@ -350,6 +362,8 @@
                 </div>
             </div>
           </div>
+        </div>
+        
       
 
 
