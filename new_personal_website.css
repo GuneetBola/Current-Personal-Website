@@ -40,6 +40,9 @@
 html, body {
   overflow-x: hidden;
   position:relative;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+  position:relative;
 }
 @media screen and (max-width: 768px) {
     body { padding-top: 0px; }
@@ -129,8 +132,12 @@ html, body {
 }
 
 .image-current {
-  width: 20%;
-  height:auto;
+  width: 40%;
+  height: auto; 
+  display: block; 
+  margin-left: auto;  
+  margin-right: auto;
+
 }
 
 .intro-text{
@@ -154,10 +161,12 @@ html, body {
 .card {
   border-radius: 20px;
   border: 4px solid black;
+  display: flex; /* Use flexbox for the layout */
+  align-items: center; /* Align items vertically */
 }
-.card img{
+/* .card img{
   border-radius: 20px;
-}
+} */
 #projects .card img{
   border: 2px solid black;
 }
@@ -320,7 +329,6 @@ html * {
 }
 
 .flipCard .card .front {
-  font-family: Georgia;
   font-size: 3em;
   text-align: center;
   line-height: 160px;
@@ -336,7 +344,6 @@ html * {
   text-align: center;
   color: black;
   padding-top: 50px;
-  font-family: Georgia;
   font-size: 2em;
 }
 
